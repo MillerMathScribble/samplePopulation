@@ -1,0 +1,43 @@
+body {
+  background-color: azure;
+  padding: 20px;
+
+}
+
+#population {
+  display:block;
+  width: 1000px;
+  background-color: pink;
+  padding: 10px;
+
+}
+
+#populationSize {
+  font-size: 20px;
+  text-align: center;
+  width: 40px;
+  height: 30px;
+  background-color: white;
+  border: solid black 5px;
+}
+
+#populationSize:hover {
+
+  background-color: pink;
+  border: solid black 5px;
+}
+
+
+button {
+  color: black;
+  background-color: pink;
+  padding: 10px;
+  border: solid 5px black;
+}
+
+button:hover {
+  color: white;
+  background-color: black;
+  padding: 10px;
+  border: solid 5px pink;
+}
