@@ -7,7 +7,7 @@ function randomFunction() {
   var n = document.getElementById('populationSize').value;
 for (var i=0; i<n; i++){
   var number =popData[Math.floor(Math.random() * popData.length)];
-  answer.innerHTML += number +", ";
+  answer.innerHTML += number +"+ ";
   }
   answer.innerHTML += "</br>";
 
